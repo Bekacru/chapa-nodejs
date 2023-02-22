@@ -34,7 +34,7 @@ export const validateInitializeOptions = async (
         split_type: yup.string().optional(),
         transaction_charge: yup.string().optional(),
       })
-      .optional(),
+      .optional().default(undefined),
   });
 
   return await schema.validate(initializeOptions);
