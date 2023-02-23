@@ -1,7 +1,7 @@
 <h1 align="center">
 <div align="center">
-  <a href="http://nestjs.com/" target="_blank">
-    <img src="https://assets.chapa.co/assets/images/chapa-logo.svg" width="320" alt="Nest Logo"/>
+  <a href="http://chapa.co/" target="_blank">
+    <img src="https://assets.chapa.co/assets/images/chapa-logo.svg" width="320" alt="Chapa Logo"/>
   </a>
   <p align="center">NodeJS sdk for chapa</p>
 </div>
