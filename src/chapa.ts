@@ -134,7 +134,7 @@ export class Chapa implements IChapa {
       await validateCreateSubaccountOptions(createSubaccountOptions);
       const response = await axios.post<CreateSubaccountResponse>(
         ChapaUrls.SUBACCOUNT,
-        createSubaccountOptions,
+        { ...createSubaccountOptions, bankCode: createSubaccountOptions.id },
         {
           headers: {
             Authorization: `Bearer ${this.chapaOptions.secretKey}`,
